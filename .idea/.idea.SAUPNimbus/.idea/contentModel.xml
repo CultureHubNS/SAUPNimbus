@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_SAUPNimbus.1531739205.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="APIGateway" t="IncludeRecursive">
+        <e p="APIGateway.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="APIGateway.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ocelot.json" t="Include" />
+      </e>
+      <e p="AuthResource" t="IncludeRecursive">
+        <e p="AuthResource.csproj" t="IncludeRecursive" />
+        <e p="Consts" t="Include">
+          <e p="RouteConsts.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="AuthController.cs" t="Include" />
+        </e>
+        <e p="DTO" t="Include">
+          <e p="Auth" t="Include">
+            <e p="Request" t="Include">
+              <e p="SignInRequestDTO.cs" t="Include" />
+            </e>
+            <e p="Response" t="Include">
+              <e p="SignInResponseDTO.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Initializers" t="Include">
+          <e p="GeneralInitializer.cs" t="Include" />
+          <e p="IInitializer.cs" t="Include" />
+          <e p="Initializer.cs" t="Include" />
+          <e p="Security" t="Include">
+            <e p="AudienceModel.cs" t="Include" />
+            <e p="SecurityInitializer.cs" t="Include" />
+          </e>
+          <e p="SingletonInitializer.cs" t="Include" />
+          <e p="SwaggerUIInitializer.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="IAuthService.cs" t="Include" />
+          <e p="Implementation" t="Include">
+            <e p="AuthService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="Utils" t="Include">
+          <e p="JwtGenerator.cs" t="Include" />
+        </e>
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="AuthResource.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Commons" t="IncludeRecursive">
+        <e p="Commons.csproj" t="IncludeRecursive" />
+        <e p="ExceptionHandling" t="Include">
+          <e p="ErrorHandlingMiddleware.cs" t="Include" />
+          <e p="Exceptions" t="Include">
+            <e p="EntityNotFoundException.cs" t="Include" />
+          </e>
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="Commons.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="SAUPNimbus.sln" t="IncludeFlat" />
+      <e p="UserMicroservice" t="IncludeRecursive">
+        <e p="Consts" t="Include">
+          <e p="RoleConsts.cs" t="Include" />
+          <e p="RouteConsts.cs" t="Include" />
+        </e>
+        <e p="Controllers" t="Include">
+          <e p="UserController.cs" t="Include" />
+        </e>
+        <e p="DTO" t="Include">
+          <e p="User" t="Include">
+            <e p="Request" t="Include">
+              <e p="CreateUserRequestDTO.cs" t="Include" />
+              <e p="UpdateUserRequestDTO.cs" t="Include" />
+            </e>
+            <e p="Response" t="Include">
+              <e p="UserResponseDTO.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Initializers" t="Include">
+          <e p="GeneralInitializer.cs" t="Include" />
+          <e p="IInitializer.cs" t="Include" />
+          <e p="Initializer.cs" t="Include" />
+          <e p="SecurityInitializer.cs" t="Include" />
+          <e p="SingletonInitializer.cs" t="Include" />
+          <e p="SwaggerUIInitializer.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="ICrudService.cs" t="Include" />
+          <e p="IUserService.cs" t="Include" />
+          <e p="Implementation" t="Include">
+            <e p="UserService.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="UserMicroservice.csproj" t="IncludeRecursive" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.0" t="Include">
+              <e p="UserMicroservice.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
